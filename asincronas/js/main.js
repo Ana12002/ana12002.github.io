@@ -20,12 +20,12 @@ async function muestraRegistros(){
         console.log("Error generado:" +e);
     }
     console.log(arrayRegistros);
-    //RegistrosHTML.innerHTML = RegistrosHTML.innerHTML + "IP:"+ arrayRegistros.geoplugin_request +  "<br/> Ciudad: "+ arrayRegistros.geoplugin_city + "<br/> Pais: " + arrayRegistros.geoplugin_countryName;
+    RegistrosHTML.innerHTML = RegistrosHTML.innerHTML + "IP:"+ arrayRegistros.geoplugin_request +  "<br/> Ciudad: "+ arrayRegistros.geoplugin_city + "<br/> Pais: " + arrayRegistros.geoplugin_countryName;
     
-   arrayRegistros.forEach(function (item, index) {
+   /*arrayRegistros.forEach(function (item, index) {
         RegistrosHTML.innerHTML = RegistrosHTML.innerHTML + "IP: " + item.geoplugin_request  +  "<br/> Ciudad: "+ item.geoplugin_city + " <br/> Pais: " + item.geoplugin_countryName + "<br>";
 
-    });
+    });*/
     
     
 }
